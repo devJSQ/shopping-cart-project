@@ -22,12 +22,12 @@ The online shopping cart system allows users to browse and purchase products fro
 
 
 2. Create the `Node` class.
-   * Create private variables for the product and a reference to the next node.
+   * Create a private variable for the product and a reference to the next node.
    * Implement a constructor to initialize the product and set the next node to None.
 
 
 3. Create the `ShoppingCart` class.
-   * Create private variable to store the reference to the head node of the linked list (ex: head).
+   * Create a private variable to store the reference to the head node of the linked list (ex: head).
    * Implement a constructor to initialize the head node as None.
    * Implement methods to add, remove, display, and calculate the total price:
      * addProduct(): Creates a new node with the given `Product` object and inserts it at the end of the linked list.
