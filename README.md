@@ -37,7 +37,7 @@ The online shopping cart system allows users to browse and purchase products fro
      * calculatetotalPrice(): Traversing the linked list, sums up the prices of the products, and returns the total price.
 
        
- 4. Test the functionality.
+  4. Test the functionality.
      * Instantiate a few product objects with different names and prices.
      * Create an instance of the `ShoppingCart` class.
      * Add the product to the cart using the `addProduct` method.
