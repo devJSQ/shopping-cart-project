@@ -8,10 +8,7 @@
 
 ## Problem
 
-
-
-The online shopping cart system allows users to browse and purchase products from an online store. we need a simple system that can manage by adding items to the cart, removing, displaying, and calculating the total price.
-
+The online shopping cart system allows users to browse and purchase products from an online store. we need a simple system to manage adding items to the cart, removing, displaying, and calculating the total price.
 
 ## Implementation
 
@@ -34,7 +31,7 @@ The online shopping cart system allows users to browse and purchase products fro
      * removeProduct(): Removes the node containing the given `Product` object from the linked list if it exists.
      * displayProducts(): Iterates over the linked list and prints the name and price of each product. If the cart is empty (head is None), display a message indicating 
      that it is empty.
-     * calculatetotalPrice(): Traversing the linked list, sums up the prices of the products, and returns the total price.
+     * calculateTotalPrice(): Traversing the linked list, sums up the prices of the products, and returns the total price.
 
        
   4. Test the functionality.
@@ -42,7 +39,7 @@ The online shopping cart system allows users to browse and purchase products fro
      * Create an instance of the `ShoppingCart` class.
      * Add the product to the cart using the `addProduct` method.
      * Display the contents of the cart using the `displayProducts` method.
-     * Calculate and print the total price using the `calculatetotalPrice`.
+     * Calculate and print the total price using the `calculateTotalPrice`.
      * Remove a product from the cart using the `removeProduct` method.
      * Display the updated cart contents.
 
@@ -67,7 +64,7 @@ Dress - $299.1
 ## Qualification to pass
 
 * The code should run successfully.
-*  Write all required methods correctly addProduct(), removeProduct(), displayProduct() and calculatetotalPrice.
+*  Write all required methods correctly addProduct(), removeProduct(), displayProduct() and calculateTotalPrice().
 
 
 
