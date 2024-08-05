@@ -1,4 +1,4 @@
-public class shoppingCart {
+public class ShoppingCart {
   
      /* write your code here */
   
