@@ -8,30 +8,30 @@
 
 ## Problem
 
-The online shopping cart system allows users to browse and purchase products from an online store. we need a simple system to manage adding items to the cart, removing, displaying, and calculating the total price.
+Create a shopping cart system that allows users to browse and purchase products from an online store. we need a simple system to manage adding items to the cart, removing, displaying, and calculating the total price.
 
 ## Implementation
 
 1. Create the `Product` class.
-   * Create a private variable `productName` and `productPrice`.
-   * Implement a constructor to initialize `productName` and `productPrice`.
+   * Create a private variable `name` and `price`.
+   * Implement a constructor to initialize `name` and `price`.
    * Add getter methods to retrieve the name and price of a product.
 
 
 2. Create the `Node` class.
    * Create a private variable for the product and a reference to the next node.
-   * Implement a constructor to initialize the product and set the next node to None.
+   * Implement a constructor to initialize the product and set the next node to null.
 
 
 3. Create the `ShoppingCart` class.
-   * Create a private variable to store the reference to the head node of the linked list (ex: head).
-   * Implement a constructor to initialize the head node as None.
+   * Create a private variable to store the reference to the head node of the linked list (ex. head).
+   * Implement a constructor to initialize the head node to null.
    * Implement methods to add, remove, display, and calculate the total price:
-     * addProduct(): Creates a new node with the given `Product` object and inserts it at the end of the linked list.
-     * removeProduct(): Removes the node containing the given `Product` object from the linked list if it exists.
-     * displayProducts(): Iterates over the linked list and prints the name and price of each product. If the cart is empty (head is None), display a message indicating 
+     * `addProduct()`: Creates a new node with the given `Product` object and inserts it at the end of the linked list.
+     * `removeProduct()`: Removes the node containing the given `Product` object from the linked list if it exists.
+     * `displayProducts()`: Iterates over the linked list and prints the name and price of each product. If the cart is empty (head is null), display a message indicating 
      that it is empty.
-     * calculateTotalPrice(): Traversing the linked list, sums up the prices of the products, and returns the total price.
+     * `calculateTotalPrice()`: Traversing the linked list, sums up the prices of the products, and returns the total price.
 
        
   4. Test the functionality.
@@ -39,13 +39,13 @@ The online shopping cart system allows users to browse and purchase products fro
      * Create an instance of the `ShoppingCart` class.
      * Add the product to the cart using the `addProduct` method.
      * Display the contents of the cart using the `displayProducts` method.
-     * Calculate and print the total price using the `calculateTotalPrice`.
+     * Calculate and print the total price using the `calculateTotalPrice` method.
      * Remove a product from the cart using the `removeProduct` method.
      * Display the updated cart contents.
 
 
 
-### Output
+### Output Example
 
 
 ```
@@ -63,8 +63,8 @@ Dress - $299.1
 
 ## Qualification to pass
 
-* The code should run successfully.
-*  Write all required methods correctly addProduct(), removeProduct(), displayProduct() and calculateTotalPrice().
+- [ ] The code should run successfully.
+- [ ] Write all required methods correctly (`addProduct()`, `removeProduct()`, `displayProduct()` and `calculateTotalPrice()`).
 
 
 
